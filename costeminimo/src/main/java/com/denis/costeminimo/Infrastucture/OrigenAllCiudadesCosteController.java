@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 @RestController
-@RequestMapping("/api/CosteMinimo")
+@RequestMapping("/api/CosteMinimo/OrigenAll")
 public class OrigenAllCiudadesCosteController {
     //inyeccion de datos
     private final OrigenAllCiudadesCosteUseCase origenAllCiudadesCosteUseCase ;
